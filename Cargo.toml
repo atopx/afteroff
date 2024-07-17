@@ -1,0 +1,13 @@
+[package]
+name = "afteroff"
+version = "0.1.0"
+edition = "2021"
+authors = ["atopx <3940422@qq.com>"]
+description = "`afteroff` is a lightweight, efficient utility designed to monitor a specific process on your Linux system and power off the machine when the process terminates. It is written in Rust to ensure high performance and low resource usage."
+license = "MIT"
+repository = "https://github.com/atopx/afteroff"
+
+[dependencies]
+libc = "0.2.155"
+structopt = "0.3.26"
+
